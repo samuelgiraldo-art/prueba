@@ -1,0 +1,100 @@
+.parallax{
+    height: 100%;
+    background-image: url(images.jpg);
+    background-size: center;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(212, 20, 13);
+    flex-direction: column;
+    font-family: fantasy;
+    font-weight: 400;
+    font-style: normal;
+    height: 300px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.parallax2{
+    background-image: url(mesa.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(206, 6, 6);
+    flex-direction: column;
+    height: 300px;
+    margin-left: px;
+    margin-right: 0px;
+}
+
+contenedor{
+    height: 80vh;
+}
+.p-parallax{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.nav{ 
+    background-color: rgb(154, 154, 180);
+    height: 100px;
+    text-align: center;
+    display: flex;
+    justify-content:space-between;
+    flex-direction: row;
+}
+
+.cuadro{
+    display: flex;
+    justify-content: flex-start;
+    display: grid;
+    grid-template-columns: repeat(2,0fr);
+    justify-items: center;
+    flex-direction: column;
+}
+
+.cuadro img{
+    width: 200px;
+    margin: 0px;
+}
+
+.lista2{ 
+    margin-left: -20px;
+}
+
+.texto{
+    font-family: fantasy;
+    font-size: 25px;
+}
+
+.subtitulo{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cuerpo{
+    background-color: rgb(112, 137, 206);
+}
+
+.logo{
+    width: 100px;
+    margin-right: 100%;
+}
+
+.nav a{
+    padding-top: 100px;
+}
+
+.lista{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+
+
