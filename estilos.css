@@ -43,10 +43,13 @@ contenedor{
 .nav{ 
     background-color: rgb(154, 154, 180);
     height: 100px;
-    text-align: center;
     display: flex;
-    justify-content:space-between;
-    flex-direction: row;
+    flex-direction: center;
+    align-items: center;
+}
+
+.nav a{
+    padding: 0 15px;
 }
 
 .cuadro{
@@ -91,10 +94,44 @@ contenedor{
 
 .lista{
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-
+    justify-content: center;
+    margin-left: 20px;
+    gap: 10px;
+    list-style: none;
+    font-weight: bold;
+    margin: 0 20px;
+    letter-spacing: 1px;
+    white-space: nowrap;
+}
+.tarjeta{
+    background-color: #f8f9fa;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,1);
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.3s ease;
+}
+.icono{
+    font-size: 30px;
+    color: #007bff;
+    margin-bottom: 10px;
 }
 
+.tarjeta h3{
+    font-weight: bold;
+    color: #222;
+}
 
+.tarjeta p{
+    color:#555;
+    font-size: 14px;
+}
 
+.recuadro{
+    display: inline-block;
+    background-color: #f8f9fa;
+    border: 2px solid #007bff;
+    border-radius: 10px;
+    padding: 15px 25px;
+    margin: 10px;
+}
