@@ -44,7 +44,6 @@ contenedor{
     background-color: rgb(154, 154, 180);
     height: 100px;
     display: flex;
-    flex-direction: center;
     align-items: center;
 }
 
